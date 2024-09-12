@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java0905.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/MainDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex10/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex10/BicycleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex11/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex11/MainCylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/lab1/MainSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/lab1/square.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="제 7장 문제">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_1/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_1/MainHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_2/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_2/MainDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_4/Avenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_4/MainAvenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kimkunwoo99&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kimkunwoo99/java0905&quot;,
+    &quot;accountId&quot;: &quot;5ac3f9b4-b357-4b4d-b2ca-2810e06371f9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ld3eQjWqLBMg2tmaRx5cM1eS3i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,12 +53,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainAvenger.executor": "Run",
+    "Application.MainCylinder.executor": "Run",
     "Application.MainDog.executor": "Run",
+    "Application.MainDrink.executor": "Run",
+    "Application.MainHero.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Reactproject/Java0905/src/chp07",
+    "last_opened_file_path": "D:/javaproject/Java0829",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,39 +78,13 @@
       <recent name="D:\Reactproject\Java0905\src\chp07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCylinder">
-    <configuration name="MainCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp07.ex11.MainCylinder" />
+  <component name="RunManager">
+    <configuration name="MainAvenger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp08.ex8_4.MainAvenger" />
       <module name="Java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp07.ex11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp07.MainDog" />
-      <module name="Java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp07.lab1.MainSquare" />
-      <module name="Java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp07.lab1.*" />
+          <option name="PATTERN" value="chp08.ex8_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,9 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainCylinder" />
-        <item itemvalue="Application.MainSquare" />
-        <item itemvalue="Application.MainDog" />
+        <item itemvalue="Application.MainAvenger" />
       </list>
     </recent_temporary>
   </component>
@@ -131,11 +114,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725496220922</updated>
-      <workItem from="1725496221962" duration="7024000" />
+      <workItem from="1725496221962" duration="7626000" />
+      <workItem from="1725511451632" duration="59000" />
+      <workItem from="1726102147580" duration="4404000" />
     </task>
+    <task id="LOCAL-00001" summary="제 7장 문제">
+      <option name="closed" value="true" />
+      <created>1725504875042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725504875042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="제 7장 문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="제 7장 문제" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chp07/ex10/Bicycle.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
