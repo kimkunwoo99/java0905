@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="제 7장 문제">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_1/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_1/MainHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_2/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_2/MainDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_4/Avenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_4/MainAvenger.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="제 8장 문제 8-1 ~ 8-4 &#10;(Class)">
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_5/MainStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_6/MainMyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_6/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_8/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_8/MainAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +51,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainCylinder.executor": "Run",
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainMyMath.executor": "Run",
     "Application.MainSquare.executor": "Run",
+    "Application.MainStudent.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/javaproject/Java0829",
+    "last_opened_file_path": "D:/javaproject/Java0905",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +79,20 @@
       <recent name="D:\Reactproject\Java0905\src\chp07" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainAccount">
+    <configuration name="MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp08.ex8_8.MainAccount" />
+      <module name="Java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chp08.ex8_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainAvenger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp08.ex8_4.MainAvenger" />
       <module name="Java0905" />
@@ -92,8 +106,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainMyMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp08.ex8_6.MainMyMath" />
+      <module name="Java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chp08.ex8_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp08.ex8_5.MainStudent" />
+      <module name="Java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chp08.ex8_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAccount" />
+        <item itemvalue="Application.MainMyMath" />
+        <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.MainAvenger" />
       </list>
     </recent_temporary>
@@ -116,7 +159,8 @@
       <updated>1725496220922</updated>
       <workItem from="1725496221962" duration="7626000" />
       <workItem from="1725511451632" duration="59000" />
-      <workItem from="1726102147580" duration="4404000" />
+      <workItem from="1726102147580" duration="6762000" />
+      <workItem from="1726705560357" duration="7343000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -126,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725504875042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="제 8장 문제 8-1 ~ 8-4 &#10;(Class)">
+      <option name="closed" value="true" />
+      <created>1726109550126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726109550126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +186,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="제 7장 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="제 7장 문제" />
+    <MESSAGE value="제 8장 문제 8-1 ~ 8-4 &#10;(Class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="제 8장 문제 8-1 ~ 8-4 &#10;(Class)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
