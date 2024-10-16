@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="Java 8장 연습문제 9장 실습 9-3까지">
-      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_4/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="Java 10장 상속 1절 상속의 개요">
+      <change afterPath="$PROJECT_DIR$/src/jbdc/JDBCconnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jbdc/MainJDBCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_8/MainMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_8/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_8/MonsterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_8/MonsterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,7 @@
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainSquare.executor": "Run",
@@ -69,13 +66,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Reactproject",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Reactproject/Java0905/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,7 +85,7 @@
       <recent name="D:\Reactproject\Java0905\src\chp07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RPGGameTest">
+  <component name="RunManager" selected="Application.MainJDBCTest">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.test_7.AccountTest" />
       <module name="Java0905" />
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp09.ex09_3.MainRandom" />
+    <configuration name="MainJDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jbdc.MainJDBCTest" />
       <module name="Java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp09.ex09_3.*" />
+          <option name="PATTERN" value="jbdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainJDBCTest" />
         <item itemvalue="Application.RPGGameTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.MonsterTest" />
         <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.MainRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,8 @@
       <workItem from="1726102147580" duration="6762000" />
       <workItem from="1726705560357" duration="9079000" />
       <workItem from="1727316856368" duration="5835000" />
-      <workItem from="1728518984969" duration="5146000" />
+      <workItem from="1728518984969" duration="5397000" />
+      <workItem from="1729042177004" duration="2829000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -216,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727318582000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java 10장 상속 1절 상속의 개요">
+      <option name="closed" value="true" />
+      <created>1728528469001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728528469001</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +236,8 @@
     <MESSAGE value="제 8장 문제 8-1 ~ 8-4 &#10;(Class)" />
     <MESSAGE value="Java 8장 실습8-5~8" />
     <MESSAGE value="Java 8장 연습문제 9장 실습 9-3까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 8장 연습문제 9장 실습 9-3까지" />
+    <MESSAGE value="Java 10장 상속 1절 상속의 개요" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 10장 상속 1절 상속의 개요" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,6 +246,15 @@
           <url>file://$PROJECT_DIR$/src/chp07/ex10/Bicycle.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/chp10/ex10_1/RPGGameTest.java</url>
+          <line>3</line>
+          <properties class="chp10.ex10_1.RPGGameTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
