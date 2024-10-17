@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="Java Oracle DB 연동&#10;(JDBC)">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Triangle.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="업캐스팅: 실습 10 - 4(배열)">
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,40 +49,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAvenger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainCylinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainDog.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainDrink.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainHero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainJDBCTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainMyMath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainRandom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonsterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RPGGameTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/jdbc/ojdbc11.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Reactproject/Java0905/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountTest.executor": "Run",
+    "Application.ArrayListTest.executor": "Run",
+    "Application.MainAccount.executor": "Run",
+    "Application.MainAvenger.executor": "Run",
+    "Application.MainCylinder.executor": "Run",
+    "Application.MainDog.executor": "Run",
+    "Application.MainDrink.executor": "Run",
+    "Application.MainHero.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
+    "Application.MainMyMath.executor": "Run",
+    "Application.MainRandom.executor": "Run",
+    "Application.MainShape.executor": "Run",
+    "Application.MainSquare.executor": "Run",
+    "Application.MainStudent.executor": "Run",
+    "Application.MonsterTest.executor": "Run",
+    "Application.RPGGameTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Reactproject/Java0905/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java0905\src\test\test_7" />
@@ -190,7 +189,7 @@
       <workItem from="1727316856368" duration="5835000" />
       <workItem from="1728518984969" duration="5397000" />
       <workItem from="1729042177004" duration="4755000" />
-      <workItem from="1729123764657" duration="1611000" />
+      <workItem from="1729123764657" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -240,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729046316712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="업캐스팅: 실습 10 - 4(배열)">
+      <option name="closed" value="true" />
+      <created>1729125724939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125724939</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +260,8 @@
     <MESSAGE value="Java 8장 연습문제 9장 실습 9-3까지" />
     <MESSAGE value="Java 10장 상속 1절 상속의 개요" />
     <MESSAGE value="Java Oracle DB 연동&#10;(JDBC)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Oracle DB 연동&#10;(JDBC)" />
+    <MESSAGE value="업캐스팅: 실습 10 - 4(배열)" />
+    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅: 실습 10 - 4(배열)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
