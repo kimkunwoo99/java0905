@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="업캐스팅: 실습 10 - 4(배열)">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainSquare.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="업캐스팅: 실습 10 - 4&#10;(Array List)">
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/Controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jbdc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jbdc/MainJDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
   "keyToString": {
     "Application.AccountTest.executor": "Run",
     "Application.ArrayListTest.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainCylinder.executor": "Run",
@@ -71,7 +73,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
+    "last_opened_file_path": "D:/Java0905",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,13 +92,26 @@
       <recent name="D:\Reactproject\Java0905\src\chp07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainShape">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp09.ex09_4.ArrayListTest" />
       <module name="Java0905" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chp09.ex09_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc2.Controller.Main" />
+      <module name="Java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc2.Controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonsterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test_8.MonsterTest" />
-      <module name="Java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.test_8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RPGGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp10.ex10_1.RPGGameTest" />
       <module name="Java0905" />
@@ -158,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainShape" />
         <item itemvalue="Application.MainJDBCTest" />
         <item itemvalue="Application.RPGGameTest" />
         <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.MonsterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,9 @@
       <workItem from="1727316856368" duration="5835000" />
       <workItem from="1728518984969" duration="5397000" />
       <workItem from="1729042177004" duration="4755000" />
-      <workItem from="1729123764657" duration="2583000" />
+      <workItem from="1729123764657" duration="3381000" />
+      <workItem from="1729128985401" duration="22000" />
+      <workItem from="1729642089287" duration="8002000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -247,7 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729125724939</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="업캐스팅: 실습 10 - 4()">
+      <option name="closed" value="true" />
+      <created>1729126466281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126466281</updated>
+    </task>
+    <task id="LOCAL-00009" summary="업캐스팅: 실습 10 - 4&#10;(Array List)">
+      <option name="closed" value="true" />
+      <created>1729126541647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126541647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +281,9 @@
     <MESSAGE value="Java 10장 상속 1절 상속의 개요" />
     <MESSAGE value="Java Oracle DB 연동&#10;(JDBC)" />
     <MESSAGE value="업캐스팅: 실습 10 - 4(배열)" />
-    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅: 실습 10 - 4(배열)" />
+    <MESSAGE value="업캐스팅: 실습 10 - 4()" />
+    <MESSAGE value="업캐스팅: 실습 10 - 4&#10;(Array List)" />
+    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅: 실습 10 - 4&#10;(Array List)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
