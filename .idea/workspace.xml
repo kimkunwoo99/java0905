@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="업캐스팅: 실습 10 - 4&#10;(Array List)">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/ProductView.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="JDBC Programming &amp; 패키지를 MVC모델에 분류하여 사용 2&#10;&lt;ArrayList&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +50,8 @@
   "keyToString": {
     "Application.AccountTest.executor": "Run",
     "Application.ArrayListTest.executor": "Run",
+    "Application.Controller (1).executor": "Run",
+    "Application.Controller.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
@@ -93,7 +91,27 @@
       <recent name="D:\Reactproject\Java0905\src\chp07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainController">
+  <component name="RunManager" selected="Application.Controller (1)">
+    <configuration name="Controller (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller" />
+      <module name="Java0905" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="libraryTest.Controller" />
+      <module name="Java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="libraryTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc2.Controller.Main" />
       <module name="Java0905" />
@@ -120,19 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainJDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jbdc.MainJDBCTest" />
-      <module name="Java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jbdc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp10.ex10_4.MainShape" />
       <module name="Java0905" />
@@ -146,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPGGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp10.ex10_1.RPGGameTest" />
-      <module name="Java0905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chp10.ex10_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Controller (1)" />
+        <item itemvalue="Application.Controller" />
         <item itemvalue="Application.MainController" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainShape" />
-        <item itemvalue="Application.MainJDBCTest" />
-        <item itemvalue="Application.RPGGameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +188,13 @@
       <workItem from="1729128985401" duration="22000" />
       <workItem from="1729642089287" duration="8002000" />
       <workItem from="1730246715564" duration="306000" />
-      <workItem from="1730247034178" duration="7913000" />
+      <workItem from="1730247034178" duration="8405000" />
+      <workItem from="1730259411753" duration="17000" />
+      <workItem from="1730259546955" duration="100000" />
+      <workItem from="1730259835586" duration="173000" />
+      <workItem from="1730332981190" duration="50000" />
+      <workItem from="1730333042622" duration="177000" />
+      <workItem from="1730333230086" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -270,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729126541647</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JDBC Programming &amp; 패키지를 MVC모델에 분류하여 사용 2&#10;&lt;ArrayList&gt;">
+      <option name="closed" value="true" />
+      <created>1730256238796</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730256238796</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +292,8 @@
     <MESSAGE value="업캐스팅: 실습 10 - 4(배열)" />
     <MESSAGE value="업캐스팅: 실습 10 - 4()" />
     <MESSAGE value="업캐스팅: 실습 10 - 4&#10;(Array List)" />
-    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅: 실습 10 - 4&#10;(Array List)" />
+    <MESSAGE value="JDBC Programming &amp; 패키지를 MVC모델에 분류하여 사용 2&#10;&lt;ArrayList&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; 패키지를 MVC모델에 분류하여 사용 2&#10;&lt;ArrayList&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
