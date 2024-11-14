@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="10장 상속,메소드 오버라이딩,&#10;생성자 호출 순서와 실행순서,&#10;추상 클래스 개념설명">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/MainItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Item2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/MainWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/MainPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack1/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack2/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/MainAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/test/protected1/MainChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/test/protected1/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/test/protected1/test/Child.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="10장 super">
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/G24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/MainIPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_1_2_3/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/MainFlyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_4/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/MainVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,7 +80,9 @@
     "Application.MainCylinder.executor": "Run",
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
+    "Application.MainFlyable.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainIPhone.executor": "Run",
     "Application.MainItem.executor": "Run",
     "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
@@ -88,6 +91,7 @@
     "Application.MainShape.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
+    "Application.MainVehicle.executor": "Run",
     "Application.MainWeapon.executor": "Run",
     "Application.MonsterTest.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
@@ -115,7 +119,7 @@
       <recent name="D:\Reactproject\Java0905\src\chp07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainPro">
+  <component name="RunManager">
     <configuration name="MainChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp10.test.protected1.MainChild" />
       <module name="Java0905" />
@@ -227,7 +231,8 @@
       <workItem from="1730333230086" duration="86000" />
       <workItem from="1730333327124" duration="9523000" />
       <workItem from="1730851926498" duration="3458000" />
-      <workItem from="1730938214484" duration="8845000" />
+      <workItem from="1730938214484" duration="9538000" />
+      <workItem from="1731543231442" duration="7483000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -341,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730342621287</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="10장 super">
+      <option name="closed" value="true" />
+      <created>1730947638344</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730947638344</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +374,8 @@
     <MESSAGE value="자바 중간과제" />
     <MESSAGE value="자바 중간과제&#10;(도서관리 프로그램)" />
     <MESSAGE value="10장 상속,메소드 오버라이딩,&#10;생성자 호출 순서와 실행순서,&#10;추상 클래스 개념설명" />
-    <option name="LAST_COMMIT_MESSAGE" value="10장 상속,메소드 오버라이딩,&#10;생성자 호출 순서와 실행순서,&#10;추상 클래스 개념설명" />
+    <MESSAGE value="10장 super" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 super" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
