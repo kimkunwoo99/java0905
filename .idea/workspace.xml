@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="12장 예외종류 , throw, throws">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/MenuView.java" afterDir="false" />
+    <list default="true" id="f4ab117a-355f-4b2c-8d38-849e01bdcc95" name="Changes" comment="제품테이블에 검색 기능 추가">
+      <change afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,67 +50,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Controller (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Controller.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryProject.Controller.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAnimal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainArcher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAvenger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainBankAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainChild.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainConstant.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainConstructor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainCylinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainDog.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainDrink.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainException12_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainException12_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainFlyable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainGameSimulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainHero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainIPhone.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainInterrupted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainItem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainJDBCTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainMyAgeException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainMyMath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainNullPointer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainPro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainRandom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainShape.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainThrows.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainVehicle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainWeapon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MonsterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RPGGameTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.chp10.ex10_6.MainController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.jdbc3.controller.MainController.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java0905&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Reactproject/Java0905/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountTest.executor": "Run",
+    "Application.ArrayListTest.executor": "Run",
+    "Application.Controller (1).executor": "Run",
+    "Application.Controller.executor": "Run",
+    "Application.LibraryProject.Controller.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainAccount.executor": "Run",
+    "Application.MainAnimal.executor": "Run",
+    "Application.MainArcher.executor": "Run",
+    "Application.MainAvenger.executor": "Run",
+    "Application.MainBankAccount.executor": "Run",
+    "Application.MainBankAccountReader.executor": "Run",
+    "Application.MainChild.executor": "Run",
+    "Application.MainConstant.executor": "Run",
+    "Application.MainConstructor.executor": "Run",
+    "Application.MainController.executor": "Run",
+    "Application.MainCylinder.executor": "Run",
+    "Application.MainDog.executor": "Run",
+    "Application.MainDrink.executor": "Run",
+    "Application.MainException12_1.executor": "Run",
+    "Application.MainException12_3.executor": "Run",
+    "Application.MainFlyable.executor": "Run",
+    "Application.MainFrame.executor": "Run",
+    "Application.MainGameSimulation.executor": "Run",
+    "Application.MainHero.executor": "Run",
+    "Application.MainIPhone.executor": "Run",
+    "Application.MainInterrupted.executor": "Run",
+    "Application.MainItem.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
+    "Application.MainMyAgeException.executor": "Run",
+    "Application.MainMyMath.executor": "Run",
+    "Application.MainNullPointer.executor": "Run",
+    "Application.MainPro.executor": "Run",
+    "Application.MainRandom.executor": "Run",
+    "Application.MainShape.executor": "Run",
+    "Application.MainSquare.executor": "Run",
+    "Application.MainStudent.executor": "Run",
+    "Application.MainThrows.executor": "Run",
+    "Application.MainVehicle.executor": "Run",
+    "Application.MainWeapon.executor": "Run",
+    "Application.MonsterTest.executor": "Run",
+    "Application.RPGGameTest.executor": "Run",
+    "Application.chp10.ex10_6.MainController.executor": "Run",
+    "Application.jdbc3.controller.MainController.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java0905",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Reactproject/Java0905/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java0905\src\chp12\ex12_7" />
@@ -244,7 +244,8 @@
       <workItem from="1732754297008" duration="556000" />
       <workItem from="1732754865769" duration="5791000" />
       <workItem from="1732859613046" duration="2224000" />
-      <workItem from="1732862177765" duration="1206000" />
+      <workItem from="1732862177765" duration="1294000" />
+      <workItem from="1733357416474" duration="8954000" />
     </task>
     <task id="LOCAL-00001" summary="제 7장 문제">
       <option name="closed" value="true" />
@@ -390,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732762096018</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="제품테이블에 검색 기능 추가">
+      <option name="closed" value="true" />
+      <created>1732863454075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732863454075</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +423,8 @@
     <MESSAGE value="11장 인터페이스" />
     <MESSAGE value="12장 예외발생 이유 및 처리 방법1" />
     <MESSAGE value="12장 예외종류 , throw, throws" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외종류 , throw, throws" />
+    <MESSAGE value="제품테이블에 검색 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="제품테이블에 검색 기능 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
